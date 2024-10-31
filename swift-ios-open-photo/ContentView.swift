@@ -39,11 +39,9 @@ struct ContentView: View {
             Button {
                 isPickerPresented = true
             } label: {
-                VStack {
-                    Image(systemName: "camera.fill")
-                        .aspectRatio(contentMode: .fit)
-                        .frame(height: 25.0)
-                }
+                Image(systemName: "camera.fill")
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 25.0)
             }
             .padding(5.0)
             .buttonStyle(.borderedProminent)
