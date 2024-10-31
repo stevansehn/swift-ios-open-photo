@@ -33,8 +33,9 @@ This project demonstrates how to use SwiftUI and `PHPickerViewController` to sel
 
 ## Requirements
 
--	iOS 15.6 or later
--	Xcode 16 or later
+- iOS 15.6+
+- Xcode 16.1+
+- Swift 6.0.2+
 
 ## License
 
